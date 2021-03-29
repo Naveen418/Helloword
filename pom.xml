@@ -39,16 +39,10 @@
         </configuration>
       </plugin>
 
-      <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
-           
-      <reporting>
-        <plugin>
+   <reporting>
+          <plugin>
         <artifactId>maven-site-plugin</artifactId>
+        <configuration>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -78,6 +72,7 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
+        </configuration>
       </plugin>
     </plugins>
    </reporting>
