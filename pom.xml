@@ -82,7 +82,8 @@
       </plugin>
     </plugins>
            
-      <plugin>
+      <reporting>
+        <plugin>
         <artifactId>maven-site-plugin</artifactId>
           <reportPlugins>
             <plugin>
@@ -117,6 +118,7 @@
           </reportPlugins>
       </plugin>
     </plugins>
+   </reporting>
 
     <pluginManagement>
       <plugins>
